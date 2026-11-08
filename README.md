@@ -1,46 +1,25 @@
-# General Extensions
+# PBAS
 
-Paperback extensions for websites with unique, non-generic themes.
+Personal Paperback 0.9 extensions, forked from [inkdex/general-extensions](https://github.com/inkdex/general-extensions).
 
 ## Available Extensions
 
-- [AllManga](https://allmanga.to)
-- [Atsumaru](https://atsu.moe)
-- [FlameComics](https://flamecomics.com/)
-- [HiveToons](https://hivetoons.org)
-- [LNori](https://lnori.com)
-- [MangaDemon](https://demonicscans.org)
-- [MangaDex](https://mangadex.org)
-- [MangaDot](https://mangadot.net)
-- [MangaFire](https://mangafire.to)
-- [MangaFox](https://fanfox.net)
-- [Mangago](https://mangago.me)
-- [MangaKatana](https://mangakatana.com)
-- [Mangapill](https://mangapill.com)
-- [MangaPlus](https://mangaplus.shueisha.co.jp)
-- [MangaTaro](https://mangataro.org)
-- [Mgeko](https://mgeko.cc)
-- [PunkRecords](https://punkrecordz.com)
-- [Roliascan](https://roliascan.com)
-- [RoyalRoad](https://www.royalroad.com)
-- [QiScans](https://qimanhwa.com)
-- [Webtoon](https://webtoons.com)
-- [WeebCentral](https://weebcentral.com)
+- [AsuraScans](https://asurascans.com), a 0.9 port of [Ivanmatthew's 0.8 extension](https://github.com/Ivanmatthew/ivans-paperback-extensions)
 
 ## Installation
 
-To add these extensions to Paperback, it’s recommended to install the registry via the [installation page][registry-installation-page] on the Inkdex website. Alternatively, you can install just this repository by visiting [this webpage][repository-installation-page].
+Add this repository in Paperback: `https://liquidnexus.github.io/pbas/0.9/stable`
 
-## Support Guidelines
+For local testing, run `npm run dev` and add `http://<your-computer's-LAN-IP>:<port>` (the port is printed on startup) as a repository instead.
 
-Need help? Check out our [Support Guidelines][support-guidelines] in the [registry repository][registry-repository]. Issues and discussions are disabled in the extension repositories and should be posted in the registry repository instead.
+## Development
 
-## Contributing Guidelines
+```sh
+npm ci
+npm run conformance          # type check, lint, format check
+npm test -- AsuraScans       # live tests against the site
+npm run dev                  # serve bundles with watch for the Paperback app
+npm run logcat               # stream logs from the app
+```
 
-Want to contribute? Read the [Contributing Guidelines][contributing-guidelines] in the [registry repository][registry-repository] to get started.
-
-[registry-installation-page]: https://inkdex.github.io/installation
-[repository-installation-page]: https://inkdex.github.io/general-extensions/0.9/stable
-[support-guidelines]: https://github.com/inkdex/extensions/blob/master/.github/SUPPORT.md
-[registry-repository]: https://github.com/inkdex/extensions
-[contributing-guidelines]: https://github.com/inkdex/extensions/blob/master/.github/CONTRIBUTING.md
+To pick up upstream toolchain or CI fixes: `git fetch upstream && git merge upstream/0.9/stable`.
