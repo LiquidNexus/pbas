@@ -5,6 +5,7 @@ Personal Paperback 0.9 extensions, forked from [inkdex/general-extensions](https
 ## Available Extensions
 
 - [AsuraScans](https://asurascans.com), a 0.9 port of [Ivanmatthew's 0.8 extension](https://github.com/Ivanmatthew/ivans-paperback-extensions)
+- [LNori](https://lnori.com), light novels, from upstream
 
 ## Installation
 
