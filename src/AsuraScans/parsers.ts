@@ -163,6 +163,7 @@ export function parseChapters(sourceManga: SourceManga, chapters: ApiChapter[]):
       sourceManga,
       langCode: "en",
       chapNum: chapter.number,
+      volume: 0, // Asura has no volumes; undefined shows as "Volume TBA" in the app
       title: htmlToText(chapter.title) || undefined,
       publishDate: new Date(chapter.published_at),
     }));
