@@ -6,8 +6,6 @@ on:
       - Bundle and Deploy
     types:
       - completed
-  schedule:
-    - cron: "0 * * * *"
   pull_request:
   workflow_dispatch:
 
