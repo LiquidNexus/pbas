@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-11-12T13:34:51.796Z",
+  "buildTime": "2026-11-12T13:42:29.868Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -38,7 +38,7 @@
     {
       "name": "DanmeiNovel",
       "description": "Extension that pulls content from danmeinovel.com.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -49,7 +49,13 @@
         32,
         64
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -62,11 +68,22 @@
     {
       "name": "DivaScans",
       "description": "Extension that pulls content from divascans.org.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
-      "badges": [],
+      "badges": [
+        {
+          "label": "Comic",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3b82f6"
+        },
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -85,11 +102,17 @@
     {
       "name": "DivineDaoLibrary",
       "description": "Extension that pulls novels from divinedaolibrary.com.",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -108,11 +131,17 @@
     {
       "name": "ExiledRebels",
       "description": "Extension that pulls novels from exiledrebelsscanlations.com.",
-      "version": "7.0.0",
+      "version": "7.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -130,11 +159,17 @@
     {
       "name": "FanFiction",
       "description": "Extension that pulls content from fanfiction.net.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "icon": "icon.png",
       "language": "multi",
       "contentRating": "MATURE",
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -153,11 +188,17 @@
     {
       "name": "Foxaholic",
       "description": "Extension that pulls translated novels from foxaholic.com.",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -176,11 +217,17 @@
     {
       "name": "KnoxT",
       "description": "Extension that pulls novels from knoxt.space.",
-      "version": "6.0.0",
+      "version": "6.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -226,7 +273,7 @@
     {
       "name": "LazyGirlTranslations",
       "description": "Extension that pulls content from lazygirltranslations.com.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -237,7 +284,13 @@
         64,
         32
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -250,7 +303,7 @@
     {
       "name": "NoodleBrainSquad",
       "description": "Extension that pulls content from noodlebrainsquad.org.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -261,7 +314,13 @@
         64,
         32
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -274,7 +333,7 @@
     {
       "name": "NuviaToon",
       "description": "Extension that pulls content from nuviatoon.org.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -284,7 +343,18 @@
         4,
         64
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Comic",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3b82f6"
+        },
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -297,7 +367,7 @@
     {
       "name": "PandaTranslations",
       "description": "Extension that pulls content from panda-translations.com.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -308,7 +378,13 @@
         64,
         32
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -321,7 +397,7 @@
     {
       "name": "ReadNovel",
       "description": "Extension that pulls content from readnovel.eu.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -331,7 +407,13 @@
         4,
         64
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -344,7 +426,7 @@
     {
       "name": "ScribbleHub",
       "description": "Original web novels from scribblehub.com.",
-      "version": "7.0.0",
+      "version": "7.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
@@ -354,7 +436,13 @@
         1,
         16
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit"
@@ -365,11 +453,22 @@
     {
       "name": "SirenScans",
       "description": "Extension that pulls content from sirenscans.org.",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
-      "badges": [],
+      "badges": [
+        {
+          "label": "Comic",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3b82f6"
+        },
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -388,7 +487,7 @@
     {
       "name": "SleepyTranslations",
       "description": "Extension that pulls content from sleepytranslations.com.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -399,7 +498,13 @@
         32,
         64
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
@@ -412,11 +517,17 @@
     {
       "name": "XNovel",
       "description": "Extension that pulls content from xnovel.me.",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
-      "badges": [],
+      "badges": [
+        {
+          "label": "Novel",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3baf4b"
+        }
+      ],
       "developers": [
         {
           "name": "kittycatgit",
