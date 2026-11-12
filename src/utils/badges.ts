@@ -8,7 +8,7 @@ export const NOVEL_BADGE = {
   backgroundColor: "#3baf4b",
 };
 
-// Sources that also serve comics carry both badges.
+// Comic sources carry this badge; sources that serve both carry both.
 export const COMIC_BADGE = {
   label: "Comic",
   textColor: "#ffffff",

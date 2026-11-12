@@ -4,7 +4,7 @@
 import { ContentRating, type ExtensionInfo } from "@paperback/types";
 
 import { basePbConfig } from "../mangastream/config";
-import { NOVEL_BADGE } from "../novel/badge";
+import { NOVEL_BADGE } from "../utils/badges";
 
 const pbConfig = {
   ...basePbConfig,

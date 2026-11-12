@@ -3,7 +3,7 @@
 
 import { ContentRating, SourceIntents, type ExtensionInfo } from "@paperback/types";
 
-import { COMIC_BADGE, NOVEL_BADGE } from "../novel/badge";
+import { COMIC_BADGE, NOVEL_BADGE } from "../utils/badges";
 
 export default {
   name: "SirenScans",

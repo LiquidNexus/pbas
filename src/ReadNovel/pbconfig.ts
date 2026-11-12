@@ -3,7 +3,7 @@
 
 import { ContentRating, type ExtensionInfo } from "@paperback/types";
 
-import { NOVEL_BADGE } from "../novel/badge";
+import { NOVEL_BADGE } from "../utils/badges";
 import { basePbConfig } from "../vcomics/config";
 
 const pbConfig = {

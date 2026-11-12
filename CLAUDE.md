@@ -24,6 +24,7 @@ Sixteen novel sources were copied from [kittycatgit/kitty-extensions-0.9](https:
 
 Unlike AsuraScans and LNori, some of these depend on shared code copied with them. Directories without a `pbconfig.ts` are libraries, not extensions:
 
+- `src/utils/badges.ts`: the shared "Novel" and "Comic" badges, used by every source here except LNori, which keeps its own copy of the Novel one.
 - `src/novel/xhtml.ts`: turns prose HTML into the XHTML document the app renders for `type: "html"` chapters. Most novel sources use it.
 - `src/generic/`: kitty's Madara engine (`MadaraGeneric`), plus `src/shared/madaraNovel.ts` for Madara novel chapters. Used by DanmeiNovel and SleepyTranslations.
 - `src/mangastream/` (Themesia) and `src/lightnovel/` on top of it. Used by LazyGirlTranslations, PandaTranslations and NoodleBrainSquad.
