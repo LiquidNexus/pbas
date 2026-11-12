@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-11-12T13:42:29.868Z",
+  "buildTime": "2026-11-12T13:48:35.826Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -12,7 +12,7 @@
     {
       "name": "AsuraScans",
       "description": "Extension that pulls content from asurascans.com.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -22,7 +22,13 @@
         1,
         16
       ],
-      "badges": [],
+      "badges": [
+        {
+          "label": "Comic",
+          "textColor": "#ffffff",
+          "backgroundColor": "#3b82f6"
+        }
+      ],
       "developers": [
         {
           "name": "LiquidNexus",
