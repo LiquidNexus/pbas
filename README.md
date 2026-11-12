@@ -7,6 +7,25 @@ Personal Paperback 0.9 extensions, forked from [inkdex/general-extensions](https
 - [AsuraScans](https://asurascans.com), a 0.9 port of [Ivanmatthew's 0.8 extension](https://github.com/Ivanmatthew/ivans-paperback-extensions)
 - [LNori](https://lnori.com), light novels, from upstream
 
+Novel sources copied from [kittycatgit/kitty-extensions-0.9](https://github.com/kittycatgit/kitty-extensions-0.9) (GPL-3.0):
+
+- [DanmeiNovel](https://danmeinovel.com)
+- [DivaScans](https://divascans.org), comics and novels
+- [DivineDaoLibrary](https://www.divinedaolibrary.com)
+- [ExiledRebels](https://exiledrebelsscanlations.com)
+- [FanFiction](https://www.fanfiction.net)
+- [Foxaholic](https://www.foxaholic.com)
+- [KnoxT](https://knoxt.space)
+- [LazyGirlTranslations](https://lazygirltranslations.com)
+- [NoodleBrainSquad](https://noodlebrainsquad.org)
+- [NuviaToon](https://nuviatoon.org), comics and novels
+- [PandaTranslations](https://panda-translations.com)
+- [ReadNovel](https://readnovel.eu)
+- [ScribbleHub](https://www.scribblehub.com)
+- [SirenScans](https://sirenscans.org), comics and novels
+- [SleepyTranslations](https://sleepytranslations.com)
+- [XNovel](https://xnovel.me)
+
 ## Installation
 
 Add this repository in Paperback: `https://liquidnexus.github.io/pbas/0.9/stable`

@@ -1,7 +1,7 @@
 {
   "name": "PBAS (0.9)",
   "private": true,
-  "description": "Personal Paperback 0.9 extensions (AsuraScans, LNori). Forked from inkdex/general-extensions.",
+  "description": "Personal Paperback 0.9 extensions (AsuraScans, LNori, and novel sources from kitty-extensions-0.9). Forked from inkdex/general-extensions.",
   "type": "module",
   "scripts": {
     "tsc": "tsc",
