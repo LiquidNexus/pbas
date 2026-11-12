@@ -3,14 +3,16 @@
 
 import { ContentRating, SourceIntents, type ExtensionInfo } from "@paperback/types";
 
+import { COMIC_BADGE, NOVEL_BADGE } from "../novel/badge";
+
 export default {
   name: "SirenScans",
   description: "Extension that pulls content from sirenscans.org.",
-  version: "5.0.0",
+  version: "5.0.1",
   icon: "icon.png",
   language: "en",
   contentRating: ContentRating.MATURE,
-  badges: [],
+  badges: [COMIC_BADGE, NOVEL_BADGE],
   developers: [
     {
       name: "kittycatgit",

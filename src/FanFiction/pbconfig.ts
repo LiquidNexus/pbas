@@ -3,14 +3,16 @@
 
 import { ContentRating, SourceIntents, type ExtensionInfo } from "@paperback/types";
 
+import { NOVEL_BADGE } from "../novel/badge";
+
 export default {
   name: "FanFiction",
   description: "Extension that pulls content from fanfiction.net.",
-  version: "2.0.0",
+  version: "2.0.1",
   icon: "icon.png",
   language: "multi",
   contentRating: ContentRating.MATURE,
-  badges: [],
+  badges: [NOVEL_BADGE],
   developers: [
     {
       name: "kittycatgit",

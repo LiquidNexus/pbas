@@ -3,13 +3,15 @@
 
 import { ContentRating, type ExtensionInfo } from "@paperback/types";
 
+import { COMIC_BADGE, NOVEL_BADGE } from "../novel/badge";
 import { basePbConfig } from "../vcomics/config";
 
 const pbConfig = {
   ...basePbConfig,
+  badges: [COMIC_BADGE, NOVEL_BADGE],
   name: "NuviaToon",
   description: "Extension that pulls content from nuviatoon.org.",
-  version: "1.0.0",
+  version: "1.0.1",
   contentRating: ContentRating.MATURE as ContentRating,
   developers: [
     {

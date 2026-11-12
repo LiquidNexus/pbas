@@ -3,14 +3,16 @@
 
 import { ContentRating, SourceIntents, type ExtensionInfo } from "@paperback/types";
 
+import { NOVEL_BADGE } from "../novel/badge";
+
 export default {
   name: "XNovel",
   description: "Extension that pulls content from xnovel.me.",
-  version: "5.0.0",
+  version: "5.0.1",
   icon: "icon.png",
   language: "en",
   contentRating: ContentRating.ADULT,
-  badges: [],
+  badges: [NOVEL_BADGE],
   developers: [
     {
       name: "kittycatgit",

@@ -3,10 +3,12 @@
 
 import { ContentRating, SourceIntents, type ExtensionInfo } from "@paperback/types";
 
+import { NOVEL_BADGE } from "../novel/badge";
+
 export default {
   name: "ScribbleHub",
   description: "Original web novels from scribblehub.com.",
-  version: "7.0.0",
+  version: "7.0.1",
   icon: "icon.png",
   language: "en",
   contentRating: ContentRating.ADULT,
@@ -16,6 +18,6 @@ export default {
     SourceIntents.CHAPTER_PROVIDING,
     SourceIntents.CLOUDFLARE_BYPASS_PROVIDING,
   ],
-  badges: [],
+  badges: [NOVEL_BADGE],
   developers: [{ name: "kittycatgit" }],
 } satisfies ExtensionInfo;

@@ -3,14 +3,16 @@
 
 import { ContentRating, SourceIntents, type ExtensionInfo } from "@paperback/types";
 
+import { NOVEL_BADGE } from "../novel/badge";
+
 export default {
   name: "KnoxT",
   description: "Extension that pulls novels from knoxt.space.",
-  version: "6.0.0",
+  version: "6.0.1",
   icon: "icon.png",
   language: "en",
   contentRating: ContentRating.ADULT,
-  badges: [],
+  badges: [NOVEL_BADGE],
   developers: [
     {
       name: "kittycatgit",

@@ -4,12 +4,14 @@
 import { ContentRating, type ExtensionInfo } from "@paperback/types";
 
 import { basePbConfig } from "../mangastream/config";
+import { NOVEL_BADGE } from "../novel/badge";
 
 const pbConfig = {
   ...basePbConfig,
+  badges: [NOVEL_BADGE],
   name: "LazyGirlTranslations",
   description: "Extension that pulls content from lazygirltranslations.com.",
-  version: "2.0.0",
+  version: "2.0.1",
   contentRating: ContentRating.MATURE as ContentRating,
   developers: [
     {

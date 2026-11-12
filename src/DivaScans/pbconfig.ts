@@ -3,14 +3,16 @@
 
 import { ContentRating, SourceIntents, type ExtensionInfo } from "@paperback/types";
 
+import { COMIC_BADGE, NOVEL_BADGE } from "../novel/badge";
+
 export default {
   name: "DivaScans",
   description: "Extension that pulls content from divascans.org.",
-  version: "1.0.0",
+  version: "1.0.1",
   icon: "icon.png",
   language: "en",
   contentRating: ContentRating.ADULT,
-  badges: [],
+  badges: [COMIC_BADGE, NOVEL_BADGE],
   developers: [
     {
       name: "kittycatgit",
